@@ -1,15 +1,14 @@
-const express = require("express");
+const router = require("express").Router();
 const path = require("path");
 
-const router = express.Router();
-
-//route that sends 'notes.html' as response when GET request is made
-router.get("/notes", (req, res) => {
-  res.sendFile(path.join(__dirname, "../public/notes.html"));
-});
-
+//route that sends 'index.html' as a response for all routes
 router.get("*", (req, res) => {
   res.sendFile(path.join(__dirname, "../public/index.html"));
+});
+
+//route that sends 'notes.html' response
+router.get("/notes", (req, res) => {
+  res.sendFile(path.join(__dirname, "../public/notes.html"));
 });
 
 module.exports = router;
