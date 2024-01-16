@@ -2,17 +2,19 @@
 
 ## Description
 
-I was given the task of creating a note taking application that can be used to write and save notes. This application uses Express.js on the back end and is supposed to save and retrieve note data from a JSON file. While making this project I learned how to use Express.js (called middleware) to handle HTTP request-response cycles.
+I was given the task of creating a note taking application that can be used to write and save notes. This application uses Express.js on the back end and saves and retrieves note data from a JSON file. While making this project I learned how to use Express.js (called middleware) to handle HTTP request-response cycles.
 
 ## Usage
 
 To use this application, be sure to download and install node.js. Specifically, the Express.js package included in node.js is required to run this application. Once completed, I will be using Heroku to deploy the live application.
 
 https://github.com/jaschmidt22/note-taker
+![Alt text](<Screenshot 2024-01-15 195821.png>)
+![Alt text](<Screenshot 2024-01-15 195701.png>)
 
 ## Credits
 
-Throughout the making of this project, I frequently referenced my class repository ASU-VIRT-FSF-PT-10-2023-U-LOLC. I also referenced Google, W3Schools, MDN Webdocs, The Full-Stack Blog, and ChatGPT.
+Throughout the making of this project, I frequently referenced my class repository ASU-VIRT-FSF-PT-10-2023-U-LOLC. I also referenced Google, W3Schools, MDN Webdocs, The Full-Stack Blog, devcenter.heroku.com, and ChatGPT. I also worked with a tutor, Trinh Nguyen.
 
 ## License
 
