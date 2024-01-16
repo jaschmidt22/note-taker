@@ -10,10 +10,10 @@ const app = express();
 
 //configure middleware to hanlde JSON and static files
 app.use(express.urlencoded({ extended: true }));
-app.use(express.static("public"));
 app.use(express.json());
-app.use(htmlRoutes);
+app.use(express.static("public"));
 app.use(apiRoutes);
+app.use(htmlRoutes);
 
 //listen on specific port for incoming HTTP requests
 app.listen(PORT, () =>
