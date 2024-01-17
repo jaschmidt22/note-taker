@@ -6,7 +6,8 @@ I was given the task of creating a note taking application that can be used to w
 
 ## Usage
 
-To use this application, be sure to download and install node.js. Specifically, the Express.js package included in node.js is required to run this application. Once completed, I will be using Heroku to deploy the live application.
+To use this application, be sure to download and install node.js. Specifically, the Express.js package included in node.js is required to run this application. I have deployed the app with Heroku and here is the link:
+https://still-brushlands-52300-d6db0b59a306.herokuapp.com/notes
 
 https://github.com/jaschmidt22/note-taker
 ![Alt text](<Screenshot 2024-01-15 195821.png>)
