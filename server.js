@@ -3,7 +3,7 @@ const express = require("express");
 const htmlRoutes = require("./routes/htmlRoutes"); //import HTML routes
 const apiRoutes = require("./routes/apiRoutes"); //import API routes
 
-const PORT = 3001;
+const PORT = process.env.PORT || 3001;
 
 //create express application
 const app = express();
